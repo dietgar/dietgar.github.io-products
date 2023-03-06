@@ -1,0 +1,49 @@
+body {
+    background-color: #1A120B;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---- Variables ---- */
+:root {
+--text-color: #D5CEA3; 
+}
+
+.mainhead {
+    border: 5px solid black;
+    padding: 5px;
+    margin: 0;
+    background-color: #3C2A21;
+    font-size: 30px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.listas {
+    margin: 10px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.pics {
+    margin: 10px;
+    border: 5px dotted black;
+    width: 300px;
+    height: 200px;
+}
+
+.info {
+    margin: 10px 0 0 15px;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.enla_pags {
+    text-decoration: none;
+    color: var(--text-color);
+}
